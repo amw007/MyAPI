@@ -1,0 +1,18 @@
+# server
+server:
+  port: 7000
+  servlet:
+    context-path: /product/api/v1
+# spring
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/product?useLegacyDatetimeCode=false&serverTimezone=Asia/Manila
+    username: am
+    password: am007
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: none
+  messages:
+    basename: i18n/messages
