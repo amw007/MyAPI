@@ -1,6 +1,6 @@
 # server
 server:
-  port: 7000
+  port: 8800
   servlet:
     context-path: /product/api/v1
 # spring
